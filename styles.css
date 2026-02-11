@@ -1,0 +1,50 @@
+/*Adiciona um fundo na ao corpo da página*/
+
+body {
+    background-color: #420404;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+/*Adiciona padding ao container principal*/
+.container2 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 5vh;
+    margin-top: 1px;
+    width: 80vw;
+    margin-left: 115px;
+}
+
+.titulo-rpg {
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  color: #eeedea; /* dourado medieval */
+  text-transform: uppercase;
+  text-shadow:
+    0 0 5px rgba(250, 250, 248, 0.6),
+    0 0 10px rgba(255, 140, 0, 0.5),
+    2px 2px 4px rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease;
+}
+
+/* efeito ao passar o mouse */
+.titulo-rpg:hover {
+  color: #ffd700;
+  text-shadow:
+    0 0 10px rgba(255, 215, 0, 0.9),
+    0 0 20px rgba(255, 140, 0, 0.8),
+    3px 3px 6px rgba(0, 0, 0, 1);
+}
+
+/* Ajeitando a imagem para ficar no tamanho do card */
+.img-card-padrao {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
